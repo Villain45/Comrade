@@ -1,0 +1,57 @@
+.editorPageMain {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+.left {
+    background: #1c1e29;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    border-bottom: 1px solid #424242;
+}
+
+img {
+    display: block;
+    height:100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.leftInner {
+    flex:1;
+}
+
+.connectedList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.leaveBtn {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 20px;
+    background: rgb(255, 73, 73);
+}
+
+.leaveBtn:hover {
+    background: rgb(255, 13, 13);
+}
+
+.copyBtn {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.copyBtn:hover {
+    background: rgb(165, 165, 165);
+}
